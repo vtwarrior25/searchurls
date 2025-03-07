@@ -1,0 +1,155 @@
+{
+  "searches": [
+    {
+      "name": "Google",
+      "searchurl": "https://www.google.com/search?q=%s"
+    },
+
+    {
+      "name": "Google Maps",
+      "searchurl": "https://www.google.com/maps/search/%s?hl=fr&source=opensearch"
+    },
+
+
+    {
+      "name": "DuckDuckGo",
+      "searchurl": "https://duckduckgo.com/?q=%s"
+    },
+
+
+    {
+    "name": "Youtube",
+    "searchurl": "https://www.youtube.com/results?search_query=%s"
+    },
+
+
+    {
+    "name": "Youtube Music",
+    "searchurl": "https://music.youtube.com/search?q=%s"
+    },
+
+
+    {
+    "name": "Twitch",
+    "searchurl": "https://www.twitch.tv/search?term=%s"
+    },
+
+
+    {
+    "name": "Reddit",
+    "searchurl": "https://www.reddit.com/search/?q=%s"
+    },
+
+
+    {
+    "name": "Reddit (through Google) 1",
+    "searchurl": "https://www.google.com/search?q=%s+site%3Areddit.com"
+    },
+
+    {
+    "name": "Reddit (through Google) 1",
+    "searchurl": "https://www.google.com/search?q=site%3Areddit.com+%s"
+    },
+
+    {
+    "name": "Reddit (through DuckDuckGo)",
+    "searchurl": "https://duckduckgo.com/?q=site%3Areddit.com+%s"
+    },
+    
+
+
+    {
+    "name": "Wikipedia",
+    "searchurl": "https://en.wikipedia.org/w/index.php?search=%s"
+    },
+    
+
+    {
+    "name": "Steam",
+    "searchurl": "https://store.steampowered.com/search/?term=%s"
+    },
+
+
+    {
+    "name": "GOG",
+    "searchurl": "https://www.gog.com/en/games?query=%s"
+    },
+
+
+    {
+    "name": "Github",
+    "searchurl": "https://github.com/search?q=%s"
+    },
+
+
+    {
+    "name": "Archive.org",
+    "searchurl": "https://archive.org/search?query=%s"
+    },
+
+
+    {
+    "name": "Wayback Machine vague",
+    "searchurl": "https://web.archive.org/web/*/%s"
+    },
+
+
+    {
+    "name": "Wayback Machine specific",
+    "searchurl": "https://web.archive.org/web/yyyymmddhhmmss/url/",
+    "comments": "Example: https://web.archive.org/web/20250119022516/https://cleartest.com/ To get the date, use date +%Y%m%d%H%M%S on Linux/Unix"
+    },
+
+    {
+    "name": "Shodan",
+    "searchurl": "https://www.shodan.io/search?query=%s"
+    },
+
+
+    {
+    "name": "Manned (man pages)",
+    "searchurl": "https://manned.org/browse/search?q=%s"
+    },
+
+    {
+    "name": "Scryfall",
+    "searchurl": "https://scryfall.com/search?q=%s"
+    },
+
+    {
+    "name": "Java Docs (the 22 can be replaced with the version number)",
+    "searchurl": "https://docs.oracle.com/en/java/javase/22/docs/api/search.html?q=%s"
+    },
+
+    {
+    "name": "Trakt",
+    "searchurl": "https://trakt.tv/search?query=%s"
+    },
+
+    {
+    "name": "IMDB",
+    "searchurl": "https://www.imdb.com/find/?q=%s"
+    },
+
+    {
+    "name": "Rate Your Music",
+    "searchurl": "https://rateyourmusic.com/search?searchterm=%s"
+    },
+
+    {
+    "name": "Album of the Year",
+    "searchurl": "https://www.albumoftheyear.org/search/?q=%s"
+    },
+
+    {
+    "name": "MusicBrainz",
+    "searchurl": "https://musicbrainz.org/search?query=%s"
+    },
+
+    {
+    "name": "Morningstar",
+    "searchurl": "https://www.morningstar.com/search?query=%s"
+    }
+
+  ]
+}
